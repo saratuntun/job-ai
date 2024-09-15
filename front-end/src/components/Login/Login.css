@@ -1,0 +1,157 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.error-message-inline {
+  position: absolute;
+  right: -160px;
+  color: red;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f0f2f5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-buttons button.active {
+  background-color: #1877f2;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.validation-code-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.validation-code-container input {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+.send-code-btn {
+  padding: 0.5rem;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-code-btn:hover {
+  background-color: #36a420;
+}
+
+.send-code-btn:disabled {
+  background-color: #8bc34a;
+  cursor: not-allowed;
+}
+
+.submit-btn {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #166fe5;
+}
+
+
+.divider {
+  text-align: center;
+  margin: 1rem 0;
+  color: #777;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.google-btn:hover {
+  background-color: #f8f8f8;
+}
+
+.google-btn svg {
+  margin-right: 0.5rem;
+}
+
+.toggle-buttons button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #1877f2;
+  background-color: white;
+  color: #1877f2;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-buttons button.active {
+  background-color: #1877f2;
+  color: white;
+}
